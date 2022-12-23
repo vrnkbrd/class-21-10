@@ -2,7 +2,7 @@
 ### Task 7kyu
 Create function fib that returns n'th element of Fibonacci sequence (classic programming task).
 #### My solution: 
-`Java 
+```Java
 public class Fibonacci {
 	public static long fib (int n){
    if (n <= 1)
@@ -11,9 +11,9 @@ public class Fibonacci {
 		
 	}
 }
-`
+```
 #### Fav solution: 
-`Java 
+```Java
 public class Fibonacci {
   
   public static long fib (int n) {
@@ -28,13 +28,13 @@ public class Fibonacci {
     return second;
   }
 }
-`
+```
 It is the classic one. Had the same vision but got how to made it with recurtion
 
-### Task 2 7kyu
+### Task 7kyu
 Count the number of divisors of a positive integer n.
 #### My solution
-`Java 
+```Java 
 public class FindDivisor {
 
   public long numberOfDivisors(int n) {
@@ -47,12 +47,11 @@ public class FindDivisor {
       return counter;
   }
 }
-
-`
+```
 
 #### Fav solution:
 
-`Java 
+```Java
 import java.util.*;
 
 public class FindDivisor {
@@ -62,5 +61,5 @@ public class FindDivisor {
   return list.size();
   }
 }
-`
+```
 List structure was used
